@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Wpf3dPointCloud.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ForceCpuFiltering" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RGBImageTopic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">${TopicPrefix}/left/image_rect</Value>
+    </Setting>
+    <Setting Name="DisparityImageTopic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">${TopicPrefix}/disparity</Value>
+    </Setting>
+    <Setting Name="CameraInfoTopic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">${TopicPrefix}/right/camera_info</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
